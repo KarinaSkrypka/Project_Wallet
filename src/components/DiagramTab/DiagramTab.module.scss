@@ -1,0 +1,45 @@
+@import '../../stylesheet';
+
+.StatisticsTitle {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-family: $second-font;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 1.5;
+  text-align: start;
+  color: #000000;
+  margin-top: 0;
+
+  @media screen and (min-width: 401px) and (max-width: 767px) {
+    text-align: center;
+  }
+
+  @media screen and (min-width: 768px) {
+    margin-bottom: 20px;
+    text-align: start;
+  }
+}
+
+.ContainerStats {
+  margin-top: 0;
+
+  @media screen and (min-width: 768px) {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.SectionStats {
+  padding-top: 15px;
+  padding-bottom: 30px;
+
+  @media screen and (min-width: 768px) {
+    padding-top: 20px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    display: flex;
+    flex-direction: column;
+  }
+}

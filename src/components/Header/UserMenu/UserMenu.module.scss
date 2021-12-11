@@ -1,0 +1,51 @@
+.UserMenu {
+  display: flex;
+  align-items: center;
+  // margin-left: 10px;
+}
+
+.UserName {
+  display: flex;
+  align-items: center;
+}
+
+.boxLogout {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 10px;
+}
+
+// .Avatar {
+//     margin-right: 4px;
+//     border-radius: 50%;
+
+// }
+
+.Name {
+  padding-right: 10px;
+  padding-left: 10px;
+  color: #bdbdbd;
+  background-color: #ffffff;
+  font-family: 'Circe', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.5;
+  border-right: 1px solid #bdbdbd;
+}
+
+.svgLogout {
+  fill: currentColor;
+  width: 18px;
+  height: 18px;
+  padding: 0px;
+
+  &:hover,
+  &:focus {
+    fill: currentColor;
+  }
+
+  @media screen and (min-width: 768px) {
+    margin-right: 10px;
+  }
+}

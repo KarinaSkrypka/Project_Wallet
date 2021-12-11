@@ -1,0 +1,75 @@
+.SignupContainer {
+  background-color: #ffffff;
+
+  @media screen and (min-width: 768px) {
+    width: 540px;
+    border-radius: 20px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    width: 56.25%;
+    height: 100vh;
+    border-radius: 0;
+    background-color: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(50px);
+  }
+}
+
+.LoginContainer {
+  background-color: #ffffff;
+
+  @media screen and (min-width: 768px) {
+    width: 540px;
+    border-radius: 20px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    width: 56.25%;
+    height: 100vh;
+    border-radius: 0;
+    background-color: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(50px);
+  }
+}
+
+.LoginFormContainer {
+  background-color: #ffffff;
+  // padding-top: 36px;
+  // padding-bottom: 36px;
+  // padding-right: 20px;
+  padding: 36px 20px;
+
+  @media screen and (min-width: 768px) {
+    padding: 40px 65px 60px 65px;
+    border-radius: 20px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 540px;
+  }
+}
+
+.SignupFormContainer {
+  background-color: #ffffff;
+  padding-top: 36px;
+  padding-bottom: 36px;
+  padding-left: 20px;
+  padding-right: 20px;
+
+  @media screen and (min-width: 768px) {
+    padding: 40px 65px 60px 65px;
+    width: 540px;
+    border-radius: 20px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}

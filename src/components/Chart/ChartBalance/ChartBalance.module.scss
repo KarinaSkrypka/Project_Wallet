@@ -1,0 +1,44 @@
+// @import '../../../stylesheet/breakpoints';
+// @import '../../../stylesheet/variables';
+
+@import '../../../stylesheet';
+
+.balance {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  font-family: $main-font;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: center;
+  color: $black-color;
+  // height: 60px;
+  width: 140px;
+  height: 24px;
+  // z-index: 999;
+
+  @media (min-width: $tablet) {
+    // position: absolute;
+    // top: 50%;
+    // left: 50%;
+    // transform: translate(-50%, -50%);
+    width: 93px;
+    height: 27px;
+  }
+}
+
+.balancePositive {
+  composes: balance;
+
+  color: $btn-accent-color;
+}
+
+.balanceNegative {
+  composes: balance;
+
+  color: $dark-pink-color;
+}

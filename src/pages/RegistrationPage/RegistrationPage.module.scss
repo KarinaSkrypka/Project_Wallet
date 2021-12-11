@@ -1,0 +1,49 @@
+.svgSignup {
+  display: none;
+
+  @media screen and (min-width: 768px) {
+    display: inline-block;
+    width: 274px;
+    height: 250px;
+    // background-image: url('../../assets/images/signup-img-tablet.png');
+    // background-repeat: no-repeat;
+    // background-position: left top;
+  }
+
+  @media screen and (min-width: 1280px) {
+    margin-bottom: 32px;
+    width: 453px;
+    height: 413px;
+    // background-image: url('../../assets/images/signup-img-desk.png');
+    // background-position: top center;
+  }
+}
+
+.SignupForm {
+  background-color: #ffffff;
+  padding-top: 36px;
+  padding-bottom: 36px;
+
+  @media screen and (min-width: 768px) {
+    padding: 40px 65px 60px 65px;
+    border-radius: 20px;
+  }
+
+  @media screen and (min-width: 1280px) {
+    margin-left: auto;
+    margin-right: auto;
+    width: 540px;
+  }
+
+  @media screen and (min-width: 1280px) and (max-height: 719px) {
+    padding: 25px 65px 30px 65px;
+  }
+
+  @media screen and (min-width: 1280px) and (min-height: 720px) {
+    padding: 25px 65px 40px 65px;
+  }
+
+  @media screen and (min-width: 1280px) and (min-height: 960px) {
+    padding: 40px 65px 60px 65px;
+  }
+}

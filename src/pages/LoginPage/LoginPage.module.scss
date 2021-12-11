@@ -1,0 +1,20 @@
+.svgLoginImg {
+  display: none;
+
+  @media screen and (min-width: 768px) {
+    display: inline-block;
+    width: 260px;
+    height: 250px;
+    // background-image: url('../../assets/images/login-img-tablet.png');
+    // background-repeat: no-repeat;
+    // background-position: left top;
+  }
+
+  @media screen and (min-width: 1280px) {
+    margin-bottom: 28px;
+    width: 435px;
+    height: 420px;
+    // background-image: url('../../assets/images/login-img-desk.png');
+    // background-position: top center;
+  }
+}
